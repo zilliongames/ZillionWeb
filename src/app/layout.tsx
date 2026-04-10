@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Zillion Games | Interactive Entertainment Studio",
-  description: "끝없는 상상력으로 새로운 세계를 만들어가는 인터랙티브 엔터테인먼트 스튜디오",
-  icons: { icon: "/favicon.ico" },
+  title: "질리언 게임즈 | Zillion Games",
+  description: "Zillion: 셀 수 없이 큰 수. 그 이름처럼, 세상의 수많은 플레이어에게 최고의 게임을 선사하겠습니다.",
+  icons: { icon: "/icon.png" },
 };
 
 export default function RootLayout({
