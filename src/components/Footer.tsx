@@ -50,11 +50,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/5 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="text-[13px] text-gray-700">
+        <div className="border-t border-white/5 py-32 md:py-40 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <span className="text-[16px] md:text-[18px] text-gray-600">
             &copy; {new Date().getFullYear()} Zillion Games. All rights reserved.
           </span>
-          <div className="flex items-center gap-6 text-[13px] text-gray-700">
+          <div className="flex items-center gap-10 text-[16px] md:text-[18px] text-gray-600">
             <a href="#" className="hover:text-gray-400 transition-colors duration-200">개인정보처리방침</a>
             <a href="#" className="hover:text-gray-400 transition-colors duration-200">이용약관</a>
           </div>

@@ -71,12 +71,12 @@ export default function SectionContact() {
 
       {/* 푸터 */}
       <div className="w-full border-t border-white/5">
-        <div className="max-w-[1280px] mx-auto px-6 md:px-10 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <Image src="/logo-horizontal.png" alt="Zillion Games" width={120} height={28} className="h-5 w-auto brightness-0 invert opacity-60" />
-            <span className="text-[12px] text-gray-700">&copy; {new Date().getFullYear()} Zillion Games</span>
+        <div className="max-w-[1280px] mx-auto px-6 md:px-10 py-28 md:py-32 flex flex-col sm:flex-row items-center justify-between gap-5">
+          <div className="flex items-center gap-5">
+            <Image src="/logo-horizontal.png" alt="Zillion Games" width={140} height={32} className="h-6 w-auto brightness-0 invert opacity-60" />
+            <span className="text-[14px] text-gray-600">&copy; {new Date().getFullYear()} Zillion Games</span>
           </div>
-          <div className="flex items-center gap-6 text-[12px] text-gray-700">
+          <div className="flex items-center gap-8 text-[14px] text-gray-600">
             <a href="/privacy" className="hover:text-gray-400 transition-colors">개인정보처리방침</a>
             <a href="/terms" className="hover:text-gray-400 transition-colors">이용약관</a>
           </div>
