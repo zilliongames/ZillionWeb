@@ -21,7 +21,7 @@ export default function SectionHero() {
         </motion.div>
 
         <motion.h1 initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, delay: 0.3 }} className="text-[40px] md:text-[68px] lg:text-[84px] font-black tracking-tight leading-[1.05] mb-6 md:mb-10">
-          <span className="gradient-text">무한한 세계를</span>
+          <span className="gradient-text">수많은 재미를</span>
           <br />
           <span className="text-white">만들어갑니다</span>
         </motion.h1>
