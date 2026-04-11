@@ -14,7 +14,7 @@ export default function SectionContact() {
         <div className="w-full max-w-[1100px] mx-auto px-6 md:px-10">
           <motion.div initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.7 }}>
             <div className="text-center mb-16 md:mb-20">
-              <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#6C63FF]/10 text-[#6C63FF] mb-8">
+              <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#C084FC]/10 text-[#C084FC] mb-8">
                 연락처
               </span>
               <h2 className="text-[36px] md:text-[48px] font-black text-white mb-4 leading-[1.15]">
@@ -28,9 +28,9 @@ export default function SectionContact() {
 
             <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
               {/* 왼쪽: 연락처 정보 */}
-              <div className="w-full lg:w-2/5 space-y-4">
+              <div className="w-full lg:w-2/5">
                 <a href="mailto:jhlee@zilliongames.net" className="flex items-center gap-4 p-5 rounded-2xl bg-white/5 border border-white/8 hover:bg-white/10 hover:border-white/15 transition-all duration-300 group">
-                  <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#6C63FF]/20 to-[#00D4FF]/20 flex items-center justify-center text-[#6C63FF] shrink-0">
+                  <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#C084FC]/20 to-[#93C5FD]/20 flex items-center justify-center text-[#C084FC] shrink-0">
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" /></svg>
                   </div>
                   <div className="text-left">
@@ -38,8 +38,8 @@ export default function SectionContact() {
                     <span className="text-gray-300 font-semibold text-[15px] group-hover:text-white transition-colors">jhlee@zilliongames.net</span>
                   </div>
                 </a>
-                <div className="flex items-center gap-4 p-5 rounded-2xl bg-white/5 border border-white/8">
-                  <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#6C63FF]/20 to-[#00D4FF]/20 flex items-center justify-center text-[#6C63FF] shrink-0">
+                <div style={{ marginTop: "24px" }} className="flex items-center gap-4 p-5 rounded-2xl bg-white/5 border border-white/8">
+                  <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#C084FC]/20 to-[#93C5FD]/20 flex items-center justify-center text-[#C084FC] shrink-0">
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" /><path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" /></svg>
                   </div>
                   <div className="text-left">

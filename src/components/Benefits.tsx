@@ -11,7 +11,7 @@ const benefits = [
   { title: "고정 상여금 연 120만원", desc: "분기별 지급", emoji: "💰" },
   { title: "생일 축하 혜택", desc: "오후반차 + 축하금 30만원", emoji: "🎂" },
   { title: "성과 인센티브", desc: "성과에 따른 별도 지급", emoji: "🔥" },
-  { title: "최고급 업무 환경", desc: "모션 데스크 + 고급 의자", emoji: "🖥️" },
+  { title: "업무 환경", desc: "모션 데스크 + 고급 의자", emoji: "🖥️" },
   { title: "경조사 지원", desc: "지원금 및 유급휴가", emoji: "❤️" },
 ];
 
@@ -27,7 +27,7 @@ export default function Benefits() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16 md:mb-24"
         >
-          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#6C63FF]/8 text-[#6C63FF] mb-8">
+          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#C084FC]/8 text-[#C084FC] mb-8">
             복리후생
           </span>
           <h2 className="text-[36px] md:text-[48px] lg:text-[56px] font-black text-gray-900 mb-8 leading-[1.15]">
@@ -50,7 +50,7 @@ export default function Benefits() {
               transition={{ duration: 0.5, delay: i * 0.06 }}
               className="card rounded-[20px] p-7 md:p-8 flex items-start gap-5 group"
             >
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#6C63FF]/10 to-[#00D4FF]/10 flex items-center justify-center text-[28px] shrink-0 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#C084FC]/10 to-[#93C5FD]/10 flex items-center justify-center text-[28px] shrink-0 group-hover:scale-110 transition-transform duration-300">
                 {item.emoji}
               </div>
               <div>

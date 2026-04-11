@@ -7,9 +7,9 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0a0a14]">
       {/* 배경 오브 */}
-      <div className="hero-orb w-[800px] h-[800px] bg-[#6C63FF] top-[5%] -left-[300px] opacity-[0.15]" />
-      <div className="hero-orb w-[600px] h-[600px] bg-[#00D4FF] bottom-[5%] -right-[200px] opacity-[0.1]" />
-      <div className="hero-orb w-[500px] h-[500px] bg-[#9333ea] top-[40%] left-[50%] opacity-[0.08]" />
+      <div className="hero-orb w-[800px] h-[800px] bg-[#C084FC] top-[5%] -left-[300px] opacity-[0.15]" />
+      <div className="hero-orb w-[600px] h-[600px] bg-[#93C5FD] bottom-[5%] -right-[200px] opacity-[0.1]" />
+      <div className="hero-orb w-[500px] h-[500px] bg-[#A78BFA] top-[40%] left-[50%] opacity-[0.08]" />
 
       {/* 그리드 패턴 */}
       <div className="absolute inset-0 opacity-[0.04]" style={{
@@ -28,7 +28,7 @@ export default function Hero() {
           <img
             src="/logo-icon.png"
             alt="Zillion Games"
-            className="drop-shadow-[0_0_60px_rgba(108,99,255,0.4)]"
+            className="drop-shadow-[0_0_60px_rgba(192,132,252,0.4)]"
             style={{ display: "block", height: "8rem", width: "auto", margin: "0 auto" }}
           />
         </motion.div>

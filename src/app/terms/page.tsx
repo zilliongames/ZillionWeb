@@ -69,7 +69,7 @@ export default function TermsPage() {
         </div>
 
         {/* 콘텐츠 */}
-        <article className="prose prose-gray max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600 prose-a:text-[#6C63FF] prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-800">
+        <article className="prose prose-gray max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600 prose-a:text-[#C084FC] prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-800">
           {lang === "ko" ? <KoreanContent /> : <EnglishContent />}
         </article>
       </main>
@@ -130,7 +130,7 @@ function KoreanContent() {
       <h2>3. 개인정보 보호정책</h2>
       <p>
         개인정보 취급에 관한 사항은{" "}
-        <Link href="/privacy" className="text-[#6C63FF]">
+        <Link href="/privacy" className="text-[#C084FC]">
           개인정보처리방침
         </Link>
         을 참조하시기 바랍니다.
@@ -367,7 +367,7 @@ function EnglishContent() {
       <h2>3. Privacy Policy</h2>
       <p>
         Please refer to the{" "}
-        <Link href="/privacy" className="text-[#6C63FF]">
+        <Link href="/privacy" className="text-[#C084FC]">
           Privacy Policy
         </Link>{" "}
         for information about how the Company handles user data.

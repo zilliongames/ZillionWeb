@@ -10,7 +10,7 @@ export default function SectionAbout() {
     <div id="about" className="fp-section bg-white">
       <div ref={ref} className="w-full max-w-[1280px] mx-auto px-6 md:px-10 text-center">
         <motion.div initial={{ opacity: 0, y: 50 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.8 }}>
-          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#6C63FF]/8 text-[#6C63FF] mb-8">
+          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#C084FC]/8 text-[#C084FC] mb-8">
             회사 소개
           </span>
           <h2 className="text-[32px] md:text-[44px] lg:text-[52px] font-black text-gray-900 mb-6 md:mb-8 leading-[1.15]">
@@ -25,8 +25,8 @@ export default function SectionAbout() {
 
         <motion.div initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.8, delay: 0.2 }} className="max-w-[700px] mx-auto">
           <div className="relative rounded-[24px] p-8 md:p-12 text-center overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#16162a]">
-            <div className="hero-orb w-[250px] h-[250px] bg-[#6C63FF] -top-16 -right-16 opacity-[0.15]" />
-            <div className="hero-orb w-[180px] h-[180px] bg-[#00D4FF] -bottom-10 -left-10 opacity-[0.1]" />
+            <div className="hero-orb w-[250px] h-[250px] bg-[#C084FC] -top-16 -right-16 opacity-[0.15]" />
+            <div className="hero-orb w-[180px] h-[180px] bg-[#93C5FD] -bottom-10 -left-10 opacity-[0.1]" />
             <div className="relative">
               <p className="text-[22px] md:text-[28px] font-black text-white leading-snug mb-4">
                 &quot;<span className="gradient-text">Zillion</span>&quot;은 셀 수 없이 큰 수

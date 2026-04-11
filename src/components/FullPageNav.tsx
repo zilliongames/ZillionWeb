@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const sections = [
   { id: "hero", label: "홈" },
-  { id: "stats", label: "성과" },
+  { id: "stats", label: "소개" },
   { id: "game1", label: "픽셀헌터키우기" },
   { id: "game2", label: "스위칭히어로즈" },
   { id: "benefits", label: "복리후생" },

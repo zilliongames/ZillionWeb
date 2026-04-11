@@ -11,8 +11,9 @@ const stats = [
 
 const timeline = [
   { year: "2022. 09", title: "Zillion Games 설립", desc: "무한한 가능성을 향한 첫걸음" },
-  { year: "2023. 03", title: "픽셀헌터키우기 출시", desc: "첫 번째 타이틀 글로벌 마켓 진출" },
-  { year: "2025. 03", title: "스위칭히어로즈 출시", desc: "두 번째 타이틀로 새로운 도전" },
+  { year: "2023. 03", title: "픽셀헌터키우기 출시", desc: "첫 번째 타이틀 글로벌 마켓 진출", link: "https://play.google.com/store/apps/details?id=com.zilliongames.hunteridle" },
+  { year: "2023. 11", title: "개발 인터뷰", desc: "질리언 게임즈의 이야기", link: "https://blog.thebackend.io/zillion-games-interview/" },
+  { year: "2025. 03", title: "스위칭히어로즈 출시", desc: "두 번째 타이틀로 새로운 도전", link: "https://abr.ge/4le7ch" },
 ];
 
 export default function SectionStats() {
@@ -20,8 +21,8 @@ export default function SectionStats() {
 
   return (
     <div id="stats" className="fp-section bg-[#0a0a14]">
-      <div className="hero-orb w-[800px] h-[800px] bg-[#6C63FF] top-[5%] -left-[300px] opacity-[0.15]" />
-      <div className="hero-orb w-[600px] h-[600px] bg-[#00D4FF] bottom-[5%] -right-[200px] opacity-[0.1]" />
+      <div className="hero-orb w-[800px] h-[800px] bg-[#C084FC] top-[5%] -left-[300px] opacity-[0.08]" />
+      <div className="hero-orb w-[600px] h-[600px] bg-[#93C5FD] bottom-[5%] -right-[200px] opacity-[0.07]" />
       <div className="absolute inset-0 opacity-[0.04]" style={{
         backgroundImage: "linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)",
         backgroundSize: "80px 80px",
@@ -70,20 +71,34 @@ export default function SectionStats() {
                 transition={{ duration: 0.5, delay: 0.3 + i * 0.12 }}
                 style={{ marginTop: i === 0 ? 0 : 24 }}
               >
-                <div className="rounded-2xl px-6 py-7 bg-white/5 border border-white/8 backdrop-blur-sm flex items-center gap-5">
-                  <span className="text-[28px] md:text-[32px] font-black gradient-text leading-none whitespace-nowrap shrink-0" style={{ marginLeft: 10 }}>
-                    {item.year}
-                  </span>
-                  <div>
-                    <h4 className="text-[16px] md:text-[17px] font-bold text-white mb-0.5">{item.title}</h4>
-                    <p className="text-[12px] md:text-[13px] text-gray-400">{item.desc}</p>
+                {item.link ? (
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" className="rounded-2xl px-6 py-7 bg-gradient-to-r from-[#C084FC]/10 to-[#93C5FD]/10 border border-[#C084FC]/20 backdrop-blur-sm flex items-center gap-5 group hover:border-[#C084FC]/40 transition-all duration-300">
+                    <span className="text-[28px] md:text-[32px] font-black gradient-text leading-none whitespace-nowrap shrink-0 tabular-nums min-w-[120px] md:min-w-[140px]" style={{ marginLeft: 10 }}>
+                      {item.year}
+                    </span>
+                    <div className="flex-1">
+                      <h4 className="text-[16px] md:text-[17px] font-bold text-white mb-0.5">{item.title}</h4>
+                      <p className="text-[12px] md:text-[13px] text-gray-400">{item.desc}</p>
+                    </div>
+                    <svg className="w-5 h-5 text-gray-500 group-hover:text-[#C084FC] group-hover:translate-x-1 transition-all duration-300 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+                  </a>
+                ) : (
+                  <div className="rounded-2xl px-6 py-7 bg-white/5 border border-white/8 backdrop-blur-sm flex items-center gap-5">
+                    <span className="text-[28px] md:text-[32px] font-black gradient-text leading-none whitespace-nowrap shrink-0 tabular-nums min-w-[120px] md:min-w-[140px]" style={{ marginLeft: 10 }}>
+                      {item.year}
+                    </span>
+                    <div>
+                      <h4 className="text-[16px] md:text-[17px] font-bold text-white mb-0.5">{item.title}</h4>
+                      <p className="text-[12px] md:text-[13px] text-gray-400">{item.desc}</p>
+                    </div>
                   </div>
-                </div>
+                )}
               </motion.div>
             ))}
           </div>
         </motion.div>
       </div>
+
     </div>
   );
 }

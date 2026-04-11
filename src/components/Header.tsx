@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const navItems = [
   { label: "홈", page: 0 },
-  { label: "성과", page: 1 },
+  { label: "소개", page: 1 },
   { label: "픽셀헌터키우기", page: 2 },
   { label: "스위칭히어로즈", page: 3 },
   { label: "복리후생", page: 4 },
@@ -69,7 +69,7 @@ export default function Header() {
             <button
               key={item.label}
               onClick={() => scrollToPage(item.page)}
-              className={`relative min-w-[100px] px-7 py-[18px] text-[16px] font-semibold rounded-full transition-all duration-300 whitespace-nowrap ${
+              className={`relative min-w-[130px] px-17 py-[18px] text-[18px] font-semibold rounded-full transition-all duration-300 whitespace-nowrap ${
                 activePage === item.page
                   ? "text-white"
                   : "text-gray-500 hover:text-gray-200"
@@ -78,7 +78,7 @@ export default function Header() {
               {activePage === item.page && (
                 <motion.div
                   layoutId="activeTab"
-                  className="absolute inset-0 bg-gradient-to-r from-[#6C63FF]/80 to-[#00D4FF]/60 rounded-full shadow-[0_0_20px_rgba(108,99,255,0.3)]"
+                  className="absolute inset-0 bg-gradient-to-b from-[#C084FC]/80 to-[#93C5FD]/60 rounded-full shadow-[0_0_20px_rgba(192,132,252,0.3)]"
                   transition={{ type: "spring", stiffness: 400, damping: 30 }}
                 />
               )}

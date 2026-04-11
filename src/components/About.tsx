@@ -31,7 +31,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="text-center mb-16 md:mb-20"
           >
-            <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#6C63FF]/8 text-[#6C63FF] mb-8">
+            <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#C084FC]/8 text-[#C084FC] mb-8">
               회사 소개
             </span>
             <h2 className="text-[36px] md:text-[48px] lg:text-[56px] font-black text-gray-900 mb-8 leading-[1.15]">
@@ -54,8 +54,8 @@ export default function About() {
             className="max-w-[760px] mx-auto"
           >
             <div className="relative rounded-[28px] p-10 md:p-14 text-center overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#16162a]">
-              <div className="hero-orb w-[300px] h-[300px] bg-[#6C63FF] -top-20 -right-20 opacity-[0.15]" />
-              <div className="hero-orb w-[200px] h-[200px] bg-[#00D4FF] -bottom-10 -left-10 opacity-[0.1]" />
+              <div className="hero-orb w-[300px] h-[300px] bg-[#C084FC] -top-20 -right-20 opacity-[0.15]" />
+              <div className="hero-orb w-[200px] h-[200px] bg-[#93C5FD] -bottom-10 -left-10 opacity-[0.1]" />
               <div className="relative">
                 <p className="text-[24px] md:text-[32px] font-black text-white leading-snug mb-6">
                   &quot;<span className="gradient-text">Zillion</span>&quot;은
@@ -77,7 +77,7 @@ export default function About() {
 
       {/* 통계 (다크) */}
       <section className="relative py-24 md:py-32 overflow-hidden bg-[#0a0a14]">
-        <div className="hero-orb w-[600px] h-[600px] bg-[#6C63FF] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.08]" />
+        <div className="hero-orb w-[600px] h-[600px] bg-[#C084FC] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.08]" />
         <div ref={statsRef} className="relative max-w-[1000px] mx-auto px-6 md:px-10">
           <div className="grid grid-cols-3 gap-6 md:gap-10">
             {stats.map((stat, i) => (

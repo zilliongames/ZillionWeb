@@ -14,9 +14,9 @@ export default function SectionHistory() {
 
   return (
     <div id="history" className="fp-section bg-[#0a0a14]">
-      <div className="hero-orb w-[800px] h-[800px] bg-[#6C63FF] top-[5%] -left-[300px] opacity-[0.15]" />
-      <div className="hero-orb w-[600px] h-[600px] bg-[#00D4FF] bottom-[5%] -right-[200px] opacity-[0.1]" />
-      <div className="hero-orb w-[500px] h-[500px] bg-[#9333ea] top-[40%] left-[50%] opacity-[0.08]" />
+      <div className="hero-orb w-[800px] h-[800px] bg-[#C084FC] top-[5%] -left-[300px] opacity-[0.15]" />
+      <div className="hero-orb w-[600px] h-[600px] bg-[#93C5FD] bottom-[5%] -right-[200px] opacity-[0.1]" />
+      <div className="hero-orb w-[500px] h-[500px] bg-[#A78BFA] top-[40%] left-[50%] opacity-[0.08]" />
       <div className="absolute inset-0 opacity-[0.04]" style={{
         backgroundImage: "linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)",
         backgroundSize: "80px 80px",

@@ -39,7 +39,7 @@ export default function Contact() {
           transition={{ duration: 0.7 }}
           className="text-center mb-16 md:mb-24"
         >
-          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#6C63FF]/8 text-[#6C63FF] mb-8">
+          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#C084FC]/8 text-[#C084FC] mb-8">
             연락처
           </span>
           <h2 className="text-[36px] md:text-[48px] lg:text-[56px] font-black text-gray-900 mb-8 leading-[1.15]">
@@ -63,7 +63,7 @@ export default function Contact() {
               transition={{ duration: 0.5, delay: 0.3 + i * 0.1 }}
               className="card rounded-2xl p-7 flex items-center gap-5 group block"
             >
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#6C63FF]/10 to-[#00D4FF]/10 flex items-center justify-center text-[#6C63FF] group-hover:text-[#00D4FF] transition-colors duration-300 shrink-0">
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#C084FC]/10 to-[#93C5FD]/10 flex items-center justify-center text-[#C084FC] group-hover:text-[#93C5FD] transition-colors duration-300 shrink-0">
                 {item.icon}
               </div>
               <div>

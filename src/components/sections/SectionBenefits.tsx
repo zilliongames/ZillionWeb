@@ -11,7 +11,7 @@ const benefits = [
   { title: "고정 상여금 연 120만원", desc: "분기별 지급", emoji: "💰" },
   { title: "생일 축하 혜택", desc: "오후반차 + 축하금 30만원", emoji: "🎂" },
   { title: "성과 인센티브", desc: "성과에 따른 별도 지급", emoji: "🔥" },
-  { title: "최고급 업무 환경", desc: "모션 데스크 + 고급 의자", emoji: "🖥️" },
+  { title: "업무 환경", desc: "모션 데스크 + 고급 의자", emoji: "🖥️" },
   { title: "경조사 지원", desc: "지원금 및 유급휴가", emoji: "❤️" },
 ];
 
@@ -22,7 +22,7 @@ export default function SectionBenefits() {
     <div id="benefits" className="fp-section bg-white">
       <div ref={ref} className="w-full max-w-[1100px] mx-auto px-6 md:px-10">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.7 }} className="text-center mb-10 md:mb-14">
-          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#6C63FF]/8 text-[#6C63FF] mb-6">
+          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#C084FC]/8 text-[#C084FC] mb-6">
             복리후생
           </span>
           <h2 className="text-[32px] md:text-[44px] font-black text-gray-900 leading-tight">
@@ -40,7 +40,7 @@ export default function SectionBenefits() {
               transition={{ duration: 0.4, delay: i * 0.05 }}
               className="card rounded-2xl p-5 md:p-6 flex items-center gap-4 group"
             >
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#6C63FF]/10 to-[#00D4FF]/10 flex items-center justify-center text-[22px] shrink-0 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#C084FC]/10 to-[#93C5FD]/10 flex items-center justify-center text-[22px] shrink-0 group-hover:scale-110 transition-transform duration-300">
                 {item.emoji}
               </div>
               <div className="min-w-0">

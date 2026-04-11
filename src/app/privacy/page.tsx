@@ -69,7 +69,7 @@ export default function PrivacyPage() {
         </div>
 
         {/* 콘텐츠 */}
-        <article className="prose prose-gray max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600 prose-a:text-[#6C63FF] prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-800">
+        <article className="prose prose-gray max-w-none prose-headings:text-gray-900 prose-p:text-gray-600 prose-li:text-gray-600 prose-a:text-[#C084FC] prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-800">
           {lang === "ko" ? <KoreanContent /> : <EnglishContent />}
         </article>
       </main>

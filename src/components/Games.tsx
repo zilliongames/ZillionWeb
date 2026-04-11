@@ -86,7 +86,7 @@ function GameCard({ game }: { game: (typeof games)[0] }) {
         </h3>
 
         <div className="mb-5">
-          <span className="text-[15px] font-bold text-[#918AFF]">{game.genre}</span>
+          <span className="text-[15px] font-bold text-[#DDD6FE]">{game.genre}</span>
           <span className="text-[13px] text-gray-500 block mt-1">{game.release}</span>
         </div>
 
@@ -96,7 +96,7 @@ function GameCard({ game }: { game: (typeof games)[0] }) {
           href={game.playStoreUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-4 px-[52px] py-[23px] rounded-full bg-gradient-to-r from-[#6C63FF] to-[#00D4FF] text-white text-[15px] font-bold hover:shadow-[0_0_40px_rgba(108,99,255,0.5)] hover:scale-[1.05] transition-all duration-300"
+          className="inline-flex items-center justify-center gap-4 px-[52px] py-[23px] rounded-full bg-gradient-to-r from-[#C084FC] to-[#93C5FD] text-white text-[15px] font-bold hover:shadow-[0_0_40px_rgba(192,132,252,0.5)] hover:scale-[1.05] transition-all duration-300"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
             <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.196 12l2.502-2.492zM5.864 3.658L16.8 9.99l-2.302 2.302-8.635-8.635z" />
@@ -171,8 +171,8 @@ export default function Games() {
 
   return (
     <section id="games" className="relative py-28 md:py-40 overflow-hidden bg-[#0a0a14]">
-      <div className="hero-orb w-[600px] h-[600px] bg-[#6C63FF] -top-40 -right-40 opacity-[0.08]" />
-      <div className="hero-orb w-[500px] h-[500px] bg-[#00D4FF] -bottom-40 -left-40 opacity-[0.06]" />
+      <div className="hero-orb w-[600px] h-[600px] bg-[#C084FC] -top-40 -right-40 opacity-[0.08]" />
+      <div className="hero-orb w-[500px] h-[500px] bg-[#93C5FD] -bottom-40 -left-40 opacity-[0.06]" />
 
       <div ref={ref} className="relative max-w-[1280px] mx-auto px-6 md:px-10">
         <motion.div
@@ -181,7 +181,7 @@ export default function Games() {
           transition={{ duration: 0.7 }}
           className="text-center mb-20 md:mb-32"
         >
-          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#00D4FF]/10 text-[#00D4FF] mb-8">
+          <span className="inline-block px-5 py-2 rounded-full text-[13px] font-bold tracking-wider uppercase bg-[#93C5FD]/10 text-[#93C5FD] mb-8">
             게임 소개
           </span>
           <h2 className="text-[36px] md:text-[48px] lg:text-[56px] font-black text-white mb-8 leading-[1.15]">
