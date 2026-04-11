@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import FullPageNav from "@/components/FullPageNav";
+import FullPageClass from "@/components/FullPageClass";
 import SectionHero from "@/components/sections/SectionHero";
 
 import SectionStats from "@/components/sections/SectionStats";
@@ -12,6 +13,7 @@ import SectionContact from "@/components/sections/SectionContact";
 export default function Home() {
   return (
     <>
+      <FullPageClass />
       <Header />
       <FullPageNav />
       <div className="fullpage-container">
