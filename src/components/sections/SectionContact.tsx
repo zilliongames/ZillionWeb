@@ -44,7 +44,7 @@ export default function SectionContact() {
                   </div>
                   <div className="text-left">
                     <div className="text-[11px] text-gray-500 font-semibold uppercase tracking-wider mb-1">주소</div>
-                    <span className="text-gray-300 font-semibold text-[14px]">경기 성남시 분당구 판교역로 231,<br />에이치스퀘어 에스동 206호</span>
+                    <span className="text-gray-300 font-semibold text-[14px]">경기도 성남시 분당구 판교역로 230,<br />삼환하이펙스 B동 506호</span>
                   </div>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default function SectionContact() {
               <div className="w-full lg:w-3/5">
                 <div className="rounded-2xl overflow-hidden border border-white/8 h-[220px] md:h-[260px]">
                   <iframe
-                    src="https://maps.google.com/maps?q=%EA%B2%BD%EA%B8%B0+%EC%84%B1%EB%82%A8%EC%8B%9C+%EB%B6%84%EB%8B%B9%EA%B5%AC+%ED%8C%90%EA%B5%90%EC%97%AD%EB%A1%9C+231+%EC%97%90%EC%9D%B4%EC%B9%98%EC%8A%A4%ED%80%98%EC%96%B4&t=&z=16&ie=UTF8&iwloc=B&output=embed"
+                    src="https://maps.google.com/maps?q=%EA%B2%BD%EA%B8%B0%EB%8F%84+%EC%84%B1%EB%82%A8%EC%8B%9C+%EB%B6%84%EB%8B%B9%EA%B5%AC+%ED%8C%90%EA%B5%90%EC%97%AD%EB%A1%9C+230+%EC%82%BC%ED%99%98%ED%95%98%EC%9D%B4%ED%8E%99%EC%8A%A4&t=&z=16&ie=UTF8&iwloc=B&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0, filter: "invert(90%) hue-rotate(180deg) brightness(0.9) contrast(1.1)" }}

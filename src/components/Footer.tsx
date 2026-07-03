@@ -43,7 +43,7 @@ export default function Footer() {
                   jhlee@zilliongames.net
                 </a>
                 <span className="text-[14px] text-gray-600">
-                  경기 성남시 분당구 판교역로 231
+                  경기도 성남시 분당구 판교역로 230
                 </span>
               </div>
             </div>
